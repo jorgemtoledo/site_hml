@@ -1,0 +1,666 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+/* Reset padrão dos navegdores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #D7EDEB;
+}
+
+.top {
+  top: 0px;
+  left: 0px;
+  height: 600px;
+  background-color: #D7EDEB;
+  margin-bottom: 55px;
+}
+
+.img-logo {
+  width: 180px;
+  margin-top: 25px;
+}
+
+.text-btn {
+  width: 100%; 
+  text-align: left;
+}
+
+.text-top {
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.p-text-top {
+  font-size: 25px;
+  color: #5F8682;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-right: 25px;
+  margin-top: 155px;
+}
+
+.credencie {
+  width: 100%; 
+  text-align: right;
+}
+
+.img-credencie {
+  margin-top: -39px;
+  width: 600px;
+  height: 500px;
+}
+
+.btn-credencie {
+  top: 422px;
+  left: 200px;
+  width: 158px;
+  height: 70px;
+  color: #fff;
+  background: #00ACA9 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border-color: #00ACA9;
+  opacity: 1;
+  margin: 0 15px;
+  padding-top: 21px;
+}
+
+.btn-credencie:hover {
+  color: #fff;
+  background-color: #00ACA9;
+  border-color: #00ACA9;
+}
+
+.btn-vantagens {
+  top: 422px;
+  left: 358px;
+  width: 158px;
+  height: 70px;
+  background: #D7EDEB 0% 0% no-repeat padding-box;
+  border: 1px solid #5F8682;
+  border-radius: 4px;
+  opacity: 1;
+  margin: 0 10px;
+}
+
+.middle {
+  top: 800px;
+  height: 1996px;
+  background: transparent linear-gradient(0deg, #FFFFFF 0%, #D7EDEB 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.text-credenciar-middle {
+  font-size: 22px;
+  font-weight: bold;
+  color: #00ACA9;
+  margin-bottom: 40px;
+}
+
+.text-marca {
+  width: 350px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  color: #00ACA9;
+}
+
+.cards-marca {
+  margin-bottom: 100px;
+}
+
+.img-mm {
+  margin-top: -55px;
+}
+
+.img-mm-middle {
+  margin-top: -55px;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+}
+
+.icon-svg {
+  color: #00ACA9;
+}
+
+.h2-middle {
+  width: 290px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #5F8682;
+}
+
+.card-last {
+  margin-top: -30px;
+}
+
+.h2-card-last {
+  font-size: 13px;
+  font-weight: bold;
+  color: #00ACA9;
+}
+
+.text-middle {
+  font-size: 14px !important;
+}
+
+.text-card-last {
+  font-size: 11px !important;
+}
+
+.card-middle {
+  background-color: transparent !important;
+  border: none;
+}
+
+.col-depoimento {
+  margin-bottom: 80px;
+}
+
+.img-depoimento {
+  width: 580px;
+}
+
+.img-depoimento_2 {
+  display: none;
+}
+
+.img-leads {
+  width: 580px;
+}
+
+.img-leads_2 {
+  display: none;
+}
+
+.img-renovigiw-white {
+  width: 55px;
+  opacity: 0.5;
+}
+
+.input-amail {
+  height: 65px;
+  padding-left: 40px; 
+  border-radius: 40px !important;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.button-email {
+  margin-left: -50px;
+  z-index: 3;
+  border-radius: 40px;
+  background-color: transparent;
+  border:none;
+}
+
+.btn-email {
+  width: 175px;
+  margin-left: -54px;
+  height: 65px;
+  color: white;
+  background: #D7EDEB 0% 0% no-repeat padding-box;
+  font-weight: bold;
+  background-color: none;
+  border-radius: 45px;
+}
+
+.btn-email:hover {
+  color: #5F8682;
+}
+.search-btn {
+  border-radius: 50px;
+  margin-left: -125px;
+}
+
+.custom_hr {
+  margin-top: 55px;
+  border: 0.5px;
+  color: #fff;
+  background-color: #fff;
+  height: 2px;
+  background-image:linear-gradient(to right, #00ACA9 , white, #00ACA9);
+  opacity: 0.5;  
+}
+
+footer {
+  left: 0px;
+  height:490px;
+  background: #00ACA9 0% 0% no-repeat padding-box;  
+}
+
+.title-footer {
+  padding-top: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-footer {
+  margin-top: 15px;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 10px;
+}
+
+.h2-footer {
+  width: 290px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.h2-footer-form {
+  width: 290px;
+  font-size: 15px;
+  color: white;
+}
+
+.text-footer {
+  font-size: 10px !important;
+}
+
+.text-footer-form {
+  font-size: 10px !important;
+  color: white;
+}
+
+.link-blog, .link-blog:hover {
+  color: white;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+.icon-svg-card {
+  color: #00ACA9;
+}
+
+.svg-edit {
+  background: rgb(239, 246, 246);
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  opacity: 0.8;
+  padding-top: 17px;
+}
+
+.svg-coffee {
+  background: rgb(239, 246, 246);;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  opacity: 0.8;
+  padding-top: 17px;
+}
+
+.svg-file {
+  background: rgb(239, 246, 246);;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  opacity: 0.8;
+  padding-top: 17px;
+}
+
+.svg-check {
+  background: rgb(239, 246, 246);;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  opacity: 0.8;
+  padding-top: 17px;
+}
+
+/* Lines */
+.line-curve_1 {
+  width: 125px;
+  height: 25px;
+  margin-top: 62px;
+  position: absolute;
+  margin-left: 220px;
+}
+
+.line-curve_2 {
+  width: 125px;
+  height: 25px;
+  margin-top: 32px;
+  position: absolute;
+  margin-left: 500px;
+}
+
+.line-curve_3 {
+  width: 125px;
+  height: 25px;
+  margin-top: 62px;
+  position: absolute;
+  margin-left: 800px;
+}
+
+/* Btn modal Mobile */
+.btnModalCredencie {
+  display: none;
+}
+
+.cards-marca-mobile {
+  display: none;
+}
+
+
+/* Carousel */
+.cards-marca-mobile .carousel-indicators {
+	left: 0;
+	top: auto;
+  bottom: -40px;
+}
+
+/* The colour of the indicators */
+.cards-marca-mobile .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.cards-marca-mobile .carousel-indicators .active {
+background: #707070;
+}
+/* /Carouse */
+
+.middle-mobile {
+  display: none;
+}
+
+.section-leads {
+  display: none;
+}
+
+/* Form 1 */
+
+.body_form {
+  background-color: white;
+}
+
+.card-footer-form {
+  padding-top: 95px;
+}
+
+.bg-custom {
+  height: 350px;
+  background: #D7EDEB !important;
+}
+
+.section-form {
+  background: white;
+  height: 1115px;
+}
+
+.form_1 {
+  margin-top: 45px;
+  margin-bottom: 256px;
+}
+
+.btn_custom_web {
+  margin-top: -30px;
+  background-color: #00ACA9;
+  border: none;
+}
+
+.btn_custom_mobile {
+  display: none;
+}
+
+.form-title {
+  color: #00ACA9;
+  font-weight: bold;
+}
+
+.form-text {
+  color: #5F8682;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.footer_form {
+  height:255px;
+}
+
+.p-footer-form_1 {
+  font-size: 11px;
+  color: white;
+  font-weight: bold;
+}
+
+.p-footer-form_2 {
+  font-size: 11px;
+  color: white;
+  margin-top: -15px;
+}
+
+ /* Media */
+@media (max-width: 767px) {
+  .logo {
+    text-align: center;
+  }
+    
+  .img-logo {
+    width: 180px;
+    margin-bottom: -125px;
+    margin-top: -15px;
+  }
+
+  .p-text-top {
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 110px;
+    margin-bottom:  95px;
+    font-weight: none !important;
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .middle-mobile {
+    display: block;
+    background: white;
+  }
+
+  .section-leads {
+    display: block;
+    margin-top: -82px;
+  }
+
+  .text-marca {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .text-marca p {
+    padding-top: 15px;
+  }
+
+    /* Mobile */
+  .btnModalCredencie {
+    position: fixed;
+    display: block;
+    float: bottom;
+    bottom: 15px;
+    z-index: 100;
+    margin-bottom: -15px;
+    background-color: #FCCC2D;
+    border: none;
+    border-radius: 0;
+    color: #1C2F54;
+  }
+
+  .btnModalCredencie:hover {
+    color: #1C2F54;
+    background-color: #FCCC2D;
+    border-color: #FCCC2D;
+  }
+
+  .cards-marca {
+    display: none;
+  }
+
+  .cards-marca-mobile {
+    display: block;
+    margin-bottom: 55px;
+  }
+
+  .col-depoimento {
+    background-color: #D7EDEB;
+  }
+
+  .img-depoimento {
+    display: none;
+  }
+
+  .img-depoimento_2 {
+    display: block;
+    width: 380px;
+  }
+
+  .col-leads {
+    background-color: #00ACA9;
+  }
+
+  .col-credenciar {
+    background-color: #D7EDEB;
+  }
+
+  .title-lead p{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .text-leads {
+    color: white;
+  }
+
+  .span-lead {
+    font-size: 12px;
+  }  
+
+  .disable-mobile {
+    display: block;
+  }
+
+  .disable-mobile {
+    display: none;
+  }
+
+  .phone-mobile {
+    align-self: auto;
+    margin-top: -55px;
+    width: 320px;
+  }
+
+  .credenciar-mobile {
+    background-color: red;
+    width: auto;
+  }
+
+  /* Lines */
+  .line-curve_1 {
+    width: 45px;
+    height: 18px;
+    margin-top: 245px;
+    position: absolute;
+    margin-left: 180px;
+    -ms-transform: rotate(70deg); /* IE 9 */
+    -webkit-transform: rotate(70deg); /* Safari 3-8 */
+    transform: rotate(70deg);
+  }
+
+  .line-curve_2 {
+    width: 45px;
+    height: 18px;
+    margin-top: 410px;
+    position: absolute;
+    margin-left: 180px;
+    -ms-transform: rotate(100deg); /* IE 9 */
+    -webkit-transform: rotate(100deg); /* Safari 3-8 */
+    transform: rotate(100deg);
+  }
+
+  .line-curve_3 {
+    width: 45px;
+    height: 18px;
+    margin-top: 600px;
+    position: absolute;
+    margin-left: 180px;
+    -ms-transform: rotate(70deg); /* IE 9 */
+    -webkit-transform: rotate(70deg); /* Safari 3-8 */
+    transform: rotate(70deg);
+  }
+
+  footer {
+    left: 0px;
+    height:800px;
+  }
+
+  .custom_hr {
+    display: none;
+  }
+
+  .text-foot-center {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+
+  /* Form 1*/
+  .section-form {
+    height: 1695px;
+  }
+
+  .footer_form {
+    height: 455px;
+  }
+
+  .btn_custom_web {
+    display: none;
+  }
+
+  .btn_custom_mobile {
+    display: block;
+    margin-top: -10px !important;
+    margin-bottom: 10px !important;
+    background-color: #00ACA9;
+    border: none;
+  }
+
+  .card-footer-form {
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  .text-footer-form {
+    color: red;
+    text-align: center;
+  }
+
+  /* .p-footer-form {
+    font-size: 55px !important;
+  } */
+
+}

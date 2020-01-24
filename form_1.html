@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body class="body_form">
+  <header>
+    <div class="bg-dark bg-custom collapse show">
+      <div class="container">
+        <div class="row">
+          <div class="logo">
+            <img class="img-logo" src="imgs/Renovigi.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <section class="section-form">
+      <div class="container">
+        <div class="row form_1">
+          <div class="col-md-12">
+            <!-- Form -->
+            <form class="needs-validation form-text" novalidate>
+
+              <div class="row">
+                <div class="col-md-6 order-md-1">
+                  <h4 class="mb-3 form-title">Dados da sua empresa</h4>
+                  <div class="mb-3">
+                    <label for="cnpj"><span class="text-danger">* </span>CNPJ</label>
+                    <input type="cnpj" class="form-control" id="cnpj" name="cnpj" placeholder="00.000.000/0000-00"
+                      required>
+                    <div class="invalid-feedback">
+                      CNPJ Obrigatório.
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="rs"><span class="text-danger">* </span>Razão social</label>
+                    <input type="text" class="form-control" id="rs" name="rs" placeholder="Nome da empresa" required>
+                    <div class="invalid-feedback">
+                      Razão social obrigatório.
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="ie">Inscrição estadual</label>
+                    <input type="text" class="form-control" id="ie" name="ie" placeholder="000.000.000">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="name_fantasy">Nome fantasia</label>
+                    <input type="text" class="form-control" id="name_fantasy" name="name_fantasy"
+                      placeholder="Nome fantasia">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="site_company">Site da empresa</label>
+                    <input type="text" class="form-control" id="site_company" name="site_name"
+                      placeholder="ex: www.seusite.com.br">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="social_network">Rede social da empresa</label>
+                    <input type="text" class="form-control" id="social_network" name="social_network"
+                      placeholder="Pode ser Facebook, Linkedin, ou Instagram">
+                  </div>
+                </div>
+                <div class="col-md-6 order-md-2">
+                  <h4 class="mb-3 form-title">Seu contato</h4>
+                  <div class="mb-3">
+                    <label for="contact"><span class="text-danger"><span class="text-danger">* </span></span>Nome
+                      completo</label>
+                    <input type="text" class="form-control" id="contact" name="contact" placeholder="ex: João Silva"
+                      required>
+                    <div class="invalid-feedback">
+                      Nome obrigatório.
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="phone"><span class="text-danger"><span class="text-danger">* </span></span>Telefone
+                      fixo</label>
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="(00) 1234-5678"
+                      required>
+                    <div class="invalid-feedback">
+                      Telefone obrigatório.
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="cell_phone">Celular</label>
+                    <input type="text" class="form-control" id="cell_phone" name="cell_phone"
+                      placeholder="(00) 99999-1234">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="email_company"><span class="text-danger">* </span>E-mail</label>
+                    <input type="email" class="form-control" id="email_company" name="email_company"
+                      placeholder="contato@suaempresa.com.br" required>
+                    <div class="invalid-feedback">
+                      E-mail Obrigatório.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="job_position"><span class="text-danger">* </span>Cargo</label>
+                    <input type="text" class="form-control" id="job_position" name="job_position"
+                      placeholder="ex: Gerente" required>
+                    <div class="invalid-feedback">
+                      Cargo Obrigatório.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <h4 class="mb-3 form-title">Dados complementares</h4>
+                  <div class="mb-3">
+                    <label><span class="text-danger">* </span>Quanto tempo trabalha no ramo de energia
+                      solar fotovoltaica?</label>
+                    <div class="form-group">
+                      <select class="custom-select" name="experienceTimeWithSolarEnergy" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="Um ano ou menos">Um ano ou menos</option>
+                        <option value="Dois anos">Dois anos</option>
+                        <option value="Três anos">Três anos</option>
+                        <option value="Quatro anos">Quatro anos</option>
+                        <option value="Cinco anos ou mais">Cinco anos ou mais</option>
+                      </select>
+                      <div class="invalid-feedback">Selecionar a opção é obrigatório.</div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="howManySystensHaveInstalled"><span class="text-danger">* </span>Quantos sistemas
+                      instalou até o momento?</label>
+                    <input type="number" class="form-control" id="howManySystensHaveInstalled"
+                      name="howManySystensHaveInstalled" placeholder="Digite aqui" required>
+                    <div class="invalid-feedback">
+                      Digitar a quantidade é obrigatório.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label><span class="text-danger">* </span>Como ficou sabendo da Renovigi?</label>
+                    <div class="form-group">
+                      <select class="custom-select" name="howDidMeetRenovigi" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="Rádio, TV ou jornal">Rádio, TV ou jornal</option>
+                        <option value="Redes sociais ou internet">Redes sociais ou internet</option>
+                        <option value="Indicação de credenciado/cliente">Indicação de credenciado/cliente</option>
+                        <option value="Eventos ou feiras">Eventos ou feiras</option>
+                      </select>
+                      <div class="invalid-feedback">Selecionar a opção é obrigatório.</div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="businessDescription">Fale um pouco sobre sua
+                      empresa, o que lhe fez chegar até aqui?</label>
+                    <textarea class="form-control" id="businessDescription" name="businessDescription" rows="3"
+                      placeholder="Descreva aqui"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" required>
+                    <label class="form-check-label" for="defaultCheck1">
+                      Minha empresa é responsável por realizar o dimensionamento, projeto e instalação para meus
+                      clientes.
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary btn_custom_web float-right" type="submit">Enviar</button>
+              <button class="btn btn-primary btn_custom_mobile float-right" type="submit">Enviar</button>
+            </form>
+            <!-- /Form -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer_form">
+    <div class="container">
+      <div class="row  card-footer-form">
+        <div class="col-md-3 col-xs-12">
+          <div class="card-body">
+            <h2 class="h2-footer-form">Tire suas dúvidas</h2>
+            <p class="p-footer-form_1">danielle@renovigi.com.br</p>
+            <p class="p-footer-form_2">(49) 99179-1079 | (49) 3323-9933 Ramal 4868</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <div class="card-body">
+            <h2 class="h2-footer-form">Onde estamos</h2>
+            <p class="p-footer-form_2">Rua Servidão Turquia, 135E 89805-010 - Bairro Presidente Médici - Chapecó / SC
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <div class="card-body">
+            <h2 class="h2-footer-form">Links úteis</h2>
+            <div class="d-flex justify-content-between align-items-center text-footer-form">
+              <p>
+                <a href="https://renovigi.com.br" target="_blank" class="link-blog">renovigi.com.br</a><br />
+                Receba novidades
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-12">
+          <div class="card-body">
+            <h2 class="h2-footer-form">Redes sociais</h2>
+            <div class="d-flex justify-content-between align-items-center text-footer-form">
+              <div class="row">
+                <div class="col"><a href="https://www.instagram.com/renovigisolar" target="_blank" class="link-blog"><i
+                      data-feather="instagram"></i></a></div>
+                <div class="col"><a href="https://pt-br.facebook.com/renovigi" target="_blank" class="link-blog"><i
+                      data-feather="facebook"></i></a></div>
+                <div class="col"><a href="https://www.youtube.com/channel/UC5hc6EI8pji4ani8187M14w" target="_blank"
+                    class="link-blog"><i data-feather="youtube"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script>
+    feather.replace()
+  </script>
+  <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function (form) {
+            form.addEventListener('submit', function (event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
