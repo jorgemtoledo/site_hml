@@ -377,7 +377,6 @@ footer {
 .cards-marca-mobile .carousel-indicators .active {
 background: #707070;
 }
-/* /Carouse */
 
 .middle-mobile {
   display: none;
@@ -388,6 +387,29 @@ background: #707070;
 }
 
 /* Form 1 */
+
+.img-logo_form {
+  display: block;
+  width: 120px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.img-logo_form_2 {
+  display: none;
+}
+
+.section_form {
+  margin-top: 45px;
+}
+
+.jumbotron-heading {
+  color: #5F8682;
+}
+
+.p-text-form {
+  font-size: 18px;
+}
 
 .body_form {
   background-color: white;
@@ -634,7 +656,7 @@ background: #707070;
   }
 
   .footer_form {
-    height: 455px;
+    height: 555px;
   }
 
   .btn_custom_web {
@@ -662,5 +684,25 @@ background: #707070;
   /* .p-footer-form {
     font-size: 55px !important;
   } */
+
+  .h2-footer-form {
+    margin-bottom: 25px;
+  }
+  .body_card_custom {
+    margin-top: -35px;
+  }
+
+  .p-text-form {
+    font-size: 14px;
+  }
+
+  .img-logo_form {
+    display: none;
+  }
+  
+  .img-logo_form_2 {
+    display: block;
+    padding-top: 18px;
+  }  
 
 }
